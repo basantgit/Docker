@@ -1,5 +1,0 @@
-FROM nginx:latest
-WORKDIR /app
-COPY . /app
-RUN apt-get update // & apt-get install nginx -y
-CMD ["start", "nginx", "0.0.0.0:8000"]
